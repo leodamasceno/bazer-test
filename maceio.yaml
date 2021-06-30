@@ -5,4 +5,4 @@ tests:
     cmd: terraform validate
   - name: tf_plan
     type: terraform
-    cmd: plan
+    cmd: terraform plan
