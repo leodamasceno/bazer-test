@@ -6,3 +6,6 @@ tests:
   - name: tf_plan
     type: terraform
     cmd: terraform plan
+  - name: tf_apply
+    type: terraform
+    cmd: terraform apply -auto-approve
