@@ -1,0 +1,8 @@
+---
+config:
+  tests:
+    - name: "validate"
+      command: "terraform validate"
+    - name: "plan"
+      command: "terraform plan"
+
