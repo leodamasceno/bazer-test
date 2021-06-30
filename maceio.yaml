@@ -1,7 +1,5 @@
 ---
 tests:
-  - name: "validate"
-    command: "terraform validate"
-  - name: "plan"
-    command: "terraform plan"
+  - terraform validate
+  - terraform plan
 
