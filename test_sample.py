@@ -1,5 +1,5 @@
 def inc(x):
-    return x + 1
+    return x + 5
 
 
 def test_answer():
