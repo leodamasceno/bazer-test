@@ -1,5 +1,5 @@
 ---
 tests:
-  - name: "Pytest local"
-    type: pytest
-    cmd: pytest
+  - name: "Build test"
+    type: rspec
+    cmd: "rspec spec hello_world.rb"
