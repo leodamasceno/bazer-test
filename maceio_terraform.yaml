@@ -5,4 +5,7 @@ tests:
     cmd: terraform validate
   - name: tf_plan
     type: terraform
-    cmd: plan
+    cmd: terraform plan
+  - name: tf_apply
+    type: terraform
+    cmd: terraform apply -auto-approve

@@ -1,11 +1,5 @@
 ---
 tests:
-  - name: tf_validate
-    type: terraform
-    cmd: terraform validate
-  - name: tf_plan
-    type: terraform
-    cmd: terraform plan
-  - name: tf_apply
-    type: terraform
-    cmd: terraform apply -auto-approve
+  - name: "Build test"
+    type: rspec
+    cmd: "rspec spec hello_world.rb"

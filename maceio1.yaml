@@ -1,5 +1,0 @@
----
-tests:
-  - name: dotnet
-    type: dotnet
-    cmd: dotnet test ./src
